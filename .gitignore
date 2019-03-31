@@ -1,0 +1,6 @@
+.idea/
+application/conf/
+application/cache/
+public/logs/
+public/error.txt
+public/sql_print.txt
