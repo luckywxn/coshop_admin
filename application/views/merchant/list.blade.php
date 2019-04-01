@@ -58,7 +58,7 @@
                 <th  data-options="{name:'contact_address',align:'center'}">联系地址</th>
                 <th data-options="{name:'created_at',align:'center',type:'date',pattern:'yyyy-MM-dd HH:mm'}">创建时间</th>
                 <th data-options="{name:'updated_at',align:'center',type:'date',pattern:'yyyy-MM-dd HH:mm'}">修改时间</th>
-                <th data-options="{name:'status',align:'center',render:function(value){return value =='1' ? '启用' : '停用'}}">状态</th>
+                <th data-options="{name:'merchant_status',align:'center',render:function(value){return value =='1' ? '启用' : '停用'}}">状态</th>
             </tr>
         </thead>
     </table>
