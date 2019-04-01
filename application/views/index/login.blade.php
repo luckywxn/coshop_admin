@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>强势文化学习系统</title>
+    <title>CoShop后台管理系统</title>
     <meta name="renderer" content="webkit">
     <script src="/static/BJUI/B-JUI/js/jquery-1.11.3.min.js"></script>
     <script src="/static/BJUI/B-JUI/js/jquery.cookie.js"></script>
@@ -61,7 +61,7 @@
     <div class="main_box">
         <form action="/index/UserLogin" id="login_form" method="post">
             <br>
-            <p class="text-center logo"><img src="/static/images/logo5.png"></p>
+            <p class="text-center logo"><img src="/static/images/logo.png" style="border-radius:12px;"></p>
             <div class="login_msg text-center"><font color="red">{{$msg}}</font></div>
             <div class="form-group">
                 <div class="input-group">
@@ -88,13 +88,8 @@
             </div>
 
             <div class="text-center">
-                <br>
-                <span style="font-size: 14px"><a href="/index/register">一键注册</a></span><br>
-            </div>
-
-            <div class="text-center">
                 <hr>
-                2017－2020 <a href="">强势文化传播集团有限公司</a><br>
+                2017－2020 <a href="">CoShop</a><br>
             </div>
         </form>
     </div>
